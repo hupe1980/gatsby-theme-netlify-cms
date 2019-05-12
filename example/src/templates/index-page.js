@@ -1,26 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
+import Container from '@material-ui/core/Container';
+import Typography from '@material-ui/core/Typography';
+
 import Content, { HTMLContent } from '../components/content';
 
 export const IndexPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Container maxWidth="md">
+      <Typography variant="h2" component="h1" gutterBottom align="center">
+        {title}
+      </Typography>
+      <PageContent content={content} />
+    </Container>
   );
 };
 

@@ -4,7 +4,10 @@ module.exports = {
     description:
       'This repo contains an example website that is built with Gatsby, and Netlify CMS.'
   },
-  __experimentalThemes: [{ resolve: 'gatsby-theme-netlify-cms', options: {} }],
+  __experimentalThemes: [
+    { resolve: 'gatsby-theme-material-ui', options: {} },
+    { resolve: 'gatsby-theme-netlify-cms', options: {} }
+  ],
   plugins: [
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support

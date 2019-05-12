@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "private": true,
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "2.4.3",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-theme-netlify-cms": "^0.0.2",
+    "gatsby-transformer-remark": "^2.3.12",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}

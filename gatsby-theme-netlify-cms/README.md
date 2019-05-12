@@ -3,6 +3,8 @@
 > A [Gatsby](https://github.com/gatsbyjs/gatsby) theme for
 > [Netlify CMS](https://www.netlifycms.org)
 
+The theme uses [netlify-cms-backend-fs](https://github.com/adarta/netlify-cms-backend-fs) to support local development.
+
 :warning: This is experimental and subject to breaking changes.
 
 ## Install

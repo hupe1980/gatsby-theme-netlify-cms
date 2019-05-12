@@ -6,10 +6,6 @@ import {
 import IndexPagePreview from './preview-templates/index-page-preview';
 
 const config = createConfig({
-  backend: {
-    name: 'git-gateway',
-    branch: 'master'
-  },
   collections: [
     {
       label: 'Pages',

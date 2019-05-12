@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-theme-netlify-cms-workspaces",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn workspace example start"
+  },
+  "workspaces": [
+    "gatsby-theme-netlify-cms",
+    "example"
+  ],
+  "devDependencies": {
+    "lerna": "^3.13.4"
+  }
+}

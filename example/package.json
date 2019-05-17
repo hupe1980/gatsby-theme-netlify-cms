@@ -1,7 +1,7 @@
 {
   "name": "example",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -15,7 +15,7 @@
     "gatsby": "2.4.3",
     "gatsby-source-filesystem": "^2.0.33",
     "gatsby-theme-material-ui": "^0.0.22",
-    "gatsby-theme-netlify-cms": "^0.0.4",
+    "gatsby-theme-netlify-cms": "^0.0.5",
     "gatsby-transformer-remark": "^2.3.12",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",

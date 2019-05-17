@@ -1,7 +1,7 @@
 import { init, registerBackend } from 'netlify-cms-app';
 import FileSystemBackend from 'netlify-cms-backend-fs';
 
-import config from './config.js';
+import config from './config';
 
 // If running in development
 if (process.env.NODE_ENV === 'development') {

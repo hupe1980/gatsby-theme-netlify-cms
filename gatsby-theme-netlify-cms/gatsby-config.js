@@ -8,9 +8,9 @@ module.exports = (themeOptions = {}) => {
         options: {
           modulePath: `${__dirname}/src/cms.js`,
           enableIdentityWidget: false,
+          manualInit: true,
           publicPath: 'admin',
           htmlTitle: 'Content Manager',
-          manualInit: true,
           ...themeOptions
         }
       },

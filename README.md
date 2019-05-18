@@ -19,7 +19,7 @@ To launch the development server with the hot reloading functionality that allow
 yarn start
 ```
 
-The cms is available under [http:localhost:8000/admin](http:localhost:8000/admin)
+The cms is available under [http://localhost:8000/admin](http://localhost:8000/admin)
 
 ## License
 

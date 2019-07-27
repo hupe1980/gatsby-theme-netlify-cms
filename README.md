@@ -3,8 +3,6 @@
 > A [Gatsby](https://github.com/gatsbyjs/gatsby) theme for
 > [Netlify CMS](https://www.netlifycms.org)
 
-:warning: This is experimental and subject to breaking changes.
-
 ## Running the example locally
 
 Clone this repo and run yarn in the root directory to install the dependencies.

@@ -20,8 +20,8 @@
   "scripts": {},
   "dependencies": {
     "gatsby-plugin-compile-es6-packages": "^1.1.0",
-    "gatsby-plugin-netlify-cms": "^4.0.1",
-    "netlify-cms-app": "^2.9.1",
+    "gatsby-plugin-netlify-cms": "^4.1.6",
+    "netlify-cms-app": "^2.9.7",
     "netlify-cms-backend-fs": "^0.4.4"
   },
   "gitHead": "bbfac5f4214dd3a245a8d9f388193b291ef8b273"

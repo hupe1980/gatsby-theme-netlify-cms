@@ -15,7 +15,8 @@
     "gatsby-plugin",
     "netlify",
     "cms",
-    "netlify-cms"
+    "netlify-cms",
+    "local development"
   ],
   "main": "index.js",
   "scripts": {},

@@ -5,8 +5,6 @@
 
 The theme uses [netlify-cms-backend-fs](https://github.com/adarta/netlify-cms-backend-fs) to support local development.
 
-:warning: This is experimental and subject to breaking changes.
-
 ## Install
 
 `npm install --save gatsby-theme-netlify-cms`
@@ -17,7 +15,7 @@ Edit `gatsby-config.js`
 
 ```javascript
 module.exports = {
-  __experimentalThemes: [
+  plugins: [
     {
       resolve: 'gatsby-theme-netlify-cms',
       options: {
@@ -25,11 +23,6 @@ module.exports = {
       }
     }
   ],
-  plugins: [
-    {
-      //...
-    }
-  ]
 };
 ```
 

@@ -1,17 +1,30 @@
 {
-  "name": "gatsby-theme-netlify-cms-workspaces",
-  "version": "1.0.0",
-  "private": true,
-  "main": "index.js",
+  "name": "gatsby-theme-netlify-cms",
+  "version": "1.0.2",
+  "description": "Gatsby theme for Netlify-CMS. The theme uses netlify-cms-backend-fs to support local development.",
   "license": "MIT",
-  "scripts": {
-    "start": "yarn workspace example start"
+  "author": "hello@webappsolutions.de",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hupe1980/gatsby-theme-netlify-cms"
   },
-  "workspaces": [
-    "gatsby-theme-netlify-cms",
-    "example"
+  "keywords": [
+    "react",
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "netlify",
+    "cms",
+    "netlify-cms",
+    "local development"
   ],
-  "devDependencies": {
-    "lerna": "^3.16.4"
-  }
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "gatsby-plugin-compile-es6-packages": "^2.1.0",
+    "gatsby-plugin-netlify-cms": "^4.1.6",
+    "netlify-cms-app": "^2.9.8-beta.3",
+    "netlify-cms-backend-fs": "^0.4.4"
+  },
+  "gitHead": "bbfac5f4214dd3a245a8d9f388193b291ef8b273"
 }

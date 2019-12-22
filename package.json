@@ -5,13 +5,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn workspace example start"
+    "start": "yarn workspace example start",
+    "all:outdated": "yarn outdated",
+    "all:upgrade": "yarn upgrade-interactive --latest"
   },
   "workspaces": [
     "gatsby-theme-netlify-cms",
     "example"
   ],
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "lerna": "^3.19.0"
   }
 }

@@ -1,6 +1,5 @@
 ---
-templateKey: 'index-page'
-path: /
+templateKey: index-page
 title: Lorem ipsum Index Page
 ---
 
